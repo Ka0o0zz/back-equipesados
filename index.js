@@ -46,6 +46,15 @@ fs.readFile(__dirname + '/api/categories/home', 'utf8', function (err, data) {
 app.get('/products/home_', function(req, res) {
 
     
+    res.json({
+        hola: 'holaa'
+    })
+
+});
+
+app.get('/products/home_', function(req, res) {
+
+    
     serveFile(res, 'api/products/home_');
 
 });
