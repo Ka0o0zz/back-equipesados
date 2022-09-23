@@ -55,7 +55,7 @@ app.get('/', function(req, res) {
 app.get('/products/home_', function(req, res) {
 
     
-    serveFile(res, '/var/task/api/products/home_');
+    serveFile(res, './api/products/home_');
 
 });
 
