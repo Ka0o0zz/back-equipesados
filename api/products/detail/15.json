@@ -1,0 +1,44 @@
+{
+  "response_code": 200,
+  "response_data": 
+    {
+      "_id": "1",
+      "productName": "Distribuidora",
+      "images": [
+        "http://192.168.20.9:8000/img/distribuidora1.png",
+        "http://192.168.20.9:8000/img/distribuidora2.png",
+        "http://192.168.20.9:8000/img/distribuidora3.png"
+      ],
+      "capacity": 5.44,
+      "city": "Cucuta",
+      "services": [],
+      "tabs": [
+        {
+          "title": "General",
+          "features": [
+            {
+              "label": "Maquinas",
+              "value": "Si"
+            },
+            {
+              "label": "Repuestos",
+              "value": "Si"
+            },
+            {
+              "label": "Experiencia",
+              "value": "8 años"
+            }
+          ]
+        },
+        {
+          "title": "sedes",
+          "sedes": [
+            {
+              "name": "Bogotá",
+              "img": "http://192.168.20.9:8000/img/distribuidora3.png"
+            }
+          ]
+        }
+      ]
+    }
+}

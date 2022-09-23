@@ -1,0 +1,172 @@
+{
+  "response_code": 200,
+  "response_data": {
+    "categories": [
+      {
+        "_id": "1",
+        "title": "Máquinas",
+        "products": [
+          {
+            "_id": "1",
+            "productName": "Lorem ipsum dolor sit amet",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "capacity": 5.44,
+            "city": "Bogotá",
+            "services":[
+              "Venta"
+            ]
+          },
+          {
+            "_id": "2",
+            "productName": "Nunc a tortor eu dolor imperdiet tincidunt quis sed",
+            "productImage": "http://192.168.20.9:8000/img/img2.png",
+            "capacity": 2.5,
+            "city": "Chía",
+            "services":[
+              "Arriendo"
+            ]
+          },
+          {
+            "_id": "3",
+            "productName": "Etiam sit amet urna at lorem maximus tincidunt in et nisi. Aliquam vitae nisi id leo dictum",
+            "productImage": "http://192.168.20.9:8000/img/img3.png",
+            "capacity": 3.8,
+            "city": "Cota",
+            "services":[
+              "Venta",
+              "Arriendo"
+            ]
+          },
+          {
+            "_id": "4",
+            "productName": "Interdum et malesuada fames ac ante ipsum primis faucibus",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "capacity": 3.4,
+            "city": "Bogotá",
+            "services":[
+              "Venta",
+              "Arriendo"
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "2",
+        "title": "Transporte",
+        "products": [
+          {
+            "_id": "2",
+            "productName": "Nunc a tortor eu dolor imperdiet tincidunt quis sed",
+            "productImage": "http://192.168.20.9:8000/img/img2.png",
+            "city": "Chía",
+            "services":[
+              "7x24"
+            ]
+          },          
+          {
+            "_id": "4",
+            "productName": "Interdum et malesuada fames ac ante ipsum primis faucibus",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "city": "Bogotá",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "3",
+            "productName": "Etiam sit amet urna at lorem maximus tincidunt in et nisi. Aliquam vitae nisi id leo dictum",
+            "productImage": "http://192.168.20.9:8000/img/img3.png",
+            "city": "Cota",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "1",
+            "productName": "Lorem ipsum dolor sit amet",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "city": "Bogotá",
+            "services":[
+              "7x24"
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "3",
+        "title": "Repuestos",
+        "products": [
+          {
+            "_id": "3",
+            "productName": "Etiam sit amet urna at lorem maximus tincidunt in et nisi. Aliquam vitae nisi id leo dictum",
+            "productImage": "http://192.168.20.9:8000/img/img3.png",
+            "city": "Cota",
+            "services":[
+              "7x24"
+            ]
+          },       
+          {
+            "_id": "4",
+            "productName": "Interdum et malesuada fames ac ante ipsum primis faucibus",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "city": "Bogotá",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "2",
+            "productName": "Nunc a tortor eu dolor imperdiet tincidunt quis sed",
+            "productImage": "http://192.168.20.9:8000/img/img2.png",
+            "city": "Chía",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "1",
+            "productName": "Lorem ipsum dolor sit amet",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "city": "Bogotá",
+            "services":[
+              "7x24"
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "4",
+        "title": "Operadores",
+        "products": [     
+          {
+            "_id": "4",
+            "productName": "Interdum et malesuada fames ac ante ipsum primis faucibus",
+            "productImage": "http://192.168.20.9:8000/img/img1.png",
+            "city": "Bogotá",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "2",
+            "productName": "Nunc a tortor eu dolor imperdiet tincidunt quis sed",
+            "productImage": "http://192.168.20.9:8000/img/img2.png",
+            "city": "Chía",
+            "services":[
+              "7x24"
+            ]
+          },
+          {
+            "_id": "3",
+            "productName": "Etiam sit amet urna at lorem maximus tincidunt in et nisi. Aliquam vitae nisi id leo dictum",
+            "productImage": "http://192.168.20.9:8000/img/img3.png",
+            "city": "Cota",
+            "services":[
+              "7x24"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

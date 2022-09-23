@@ -1,0 +1,191 @@
+{
+    "response_code": 200,
+    "response_data": [
+        {
+            "_id": "1",
+            "title": "Máquinas",
+            "icon": "lib/assets/images/cat-1.png",
+            "products": [
+                {
+                    "_id": "1",
+                    "productName": "Lorem ipsum dolor sit amet",
+                    "productImage": "http://192.168.20.9:8000/img/img1.png",
+                    "capacity": 5.44,
+                    "city": "Bogotá",
+                    "services": [
+                        "Venta"
+                    ]
+                },
+                {
+                    "_id": "2",
+                    "productName": "Nunc a tortor eu dolor imperdiet tincidunt quis sed",
+                    "productImage": "http://192.168.20.9:8000/img/img2.png",
+                    "capacity": 2.5,
+                    "city": "Chía",
+                    "services": [
+                        "Arriendo"
+                    ]
+                },
+                {
+                    "_id": "3",
+                    "productName": "Etiam sit amet urna at lorem maximus tincidunt in et nisi. Aliquam vitae nisi id leo dictum",
+                    "productImage": "http://192.168.20.9:8000/img/img3.png",
+                    "capacity": 3.8,
+                    "city": "Cota",
+                    "services": [
+                        "Venta",
+                        "Arriendo"
+                    ]
+                },
+                {
+                    "_id": "4",
+                    "productName": "Interdum et malesuada fames ac ante ipsum primis faucibus",
+                    "productImage": "http://192.168.20.9:8000/img/img1.png",
+                    "capacity": 3.4,
+                    "city": "Bogotá",
+                    "services": [
+                        "Venta",
+                        "Arriendo"
+                    ]
+                }
+            ],
+            "total": 4
+        },
+        {
+            "_id": "2",
+            "title": "Transportadores",
+            "icon": "lib/assets/images/cat-2.png",
+            "products": [
+                {
+                    "_id": "5",
+                    "productName": "Pedro Osorio",
+                    "productImage": "http://192.168.20.9:8000/img/pedro.png",
+                    "city": "Pasto",
+                    "services": [
+                        "Tractomula"
+                    ]
+                },
+                {
+                    "_id": "6",
+                    "productName": "Carlos Martinez",
+                    "productImage": "http://192.168.20.9:8000/img/carlos.png",
+                    "city": "Cucuta",
+                    "services": [
+                        "Camion"
+                    ]
+                },
+                {
+                    "_id": "7",
+                    "productName": "Roberto Sanchez",
+                    "productImage": "http://192.168.20.9:8000/img/roberto.png",
+                    "city": "Zipaquira",
+                    "services": [
+                        "Trailers",
+                        "Camion"
+                    ]
+                },
+                {
+                    "_id": "8",
+                    "productName": "Carlos Martinez",
+                    "productImage": "http://192.168.20.9:8000/img/carlos.png",
+                    "city": "Cucuta",
+                    "services": [
+                        "Camion"
+                    ]
+                }
+            ],
+            "total": 4
+        },
+        {
+            "_id": "3",
+            "title": "Operadores",
+            "icon": "lib/assets/images/cat-3.png",
+            "products": [
+                {
+                    "_id": "9",
+                    "productName": "Francisco Pachecho",
+                    "productImage": "http://192.168.20.9:8000/img/francisco.png",
+                    "city": "Barranquilla",
+                    "services": [
+                        "Montagargas",
+                        "Gruas"
+                    ],
+                    "score": 5
+                },
+                {
+                    "_id": "10",
+                    "productName": "Robert Gomez",
+                    "productImage": "http://192.168.20.9:8000/img/robert.png",
+                    "city": "Cucuta",
+                    "services": [
+                        "Plataformas"
+                    ]
+                },
+                {
+                    "_id": "11",
+                    "productName": "Frank Diaz",
+                    "productImage": "http://192.168.20.9:8000/img/frank.png",
+                    "city": "Zipaquira",
+                    "services": [
+                        "Gruas",
+                        "Plataformas"
+                    ]
+                },
+                {
+                    "_id": "12",
+                    "productName": "Andres Sepulveda",
+                    "productImage": "http://192.168.20.9:8000/img/andres.png",
+                    "city": "Buenaventura",
+                    "services": [
+                        "Plataformas"
+                    ]
+                }
+            ],
+            "total": 4
+        },
+        {
+            "_id": "4",
+            "title": "Distribuidores",
+            "icon": "lib/assets/images/cat-4.png",
+            "products": [
+                {
+                    "_id": "13",
+                    "productName": "Autorepuestos JG",
+                    "productImage": "http://192.168.20.9:8000/img/autorepuestos.png",
+                    "city": "Barranquilla",
+                    "services": [
+                        
+                    ]
+                },
+                {
+                    "_id": "14",
+                    "productName": "Suzuki Distribuidora",
+                    "productImage": "http://192.168.20.9:8000/img/suzuki.png",
+                    "city": "Cucuta",
+                    "services": [
+                        
+                    ]
+                },
+                {
+                    "_id": "15",
+                    "productName": "Honda Distribuidora",
+                    "productImage": "http://192.168.20.9:8000/img/honda.png",
+                    "city": "Zipaquira",
+                    "services": [
+                        
+                    ]
+                },
+                {
+                    "_id": "16",
+                    "productName": "Tecnimotos",
+                    "productImage": "http://192.168.20.9:8000/img/tecnimotos.png",
+                    "city": "Buenaventura",
+                    "services": [
+                        
+                    ]
+                }
+            ],
+            "total": 4
+        }
+    ]
+}

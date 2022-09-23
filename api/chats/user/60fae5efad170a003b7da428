@@ -1,0 +1,73 @@
+{
+    "response_code": 200,
+    "response_data": {
+        "id": "60fae5efad170a003b7da428",
+        "vendorId": "5f24242faea52d34bb1308bd",
+        "vendorName": "Caterpillar",
+        "vendorStatus": "En línea",
+        "vendorImage": "http://192.168.20.9:8000/img/vendor_cat.png",
+        "productId": "60fae5efad170a003b7da428",
+        "messages": [
+            {
+                "id": "6203eeacbcad4a003b9c2754",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "message": "Lorem ipsum",
+                "sentBy": "USER",
+                "createdAt": "2022-02-09T16:41:16.870Z",
+                "updatedAt": "2022-02-09T16:41:16.870Z"
+            },
+            {
+                "id": "6203efabbcad4a003b9c2756",
+                "message": "Sed eu magna quis eros dictum mollis",
+                "sentBy": "VENDOR",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "createdAt": "2022-02-09T16:45:31.696Z",
+                "updatedAt": "2022-02-09T16:45:31.696Z"
+            },
+            {
+                "id": "6203eeb7bcad4a003b9c2755",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "message": "Nulla facilisi. In convallis fermentum felis nec egestas",
+                "sentBy": "USER",
+                "createdAt": "2022-02-09T16:41:27.901Z",
+                "updatedAt": "2022-02-09T16:41:27.901Z"
+            },
+            {
+                "id": "6203eeb7bcad4a003b9c2755",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "message": "Cras pellentesque felis ut justo sagittis, non auctor quam malesuada",
+                "sentBy": "USER",
+                "createdAt": "2022-02-09T16:41:27.901Z",
+                "updatedAt": "2022-02-09T16:41:27.901Z"
+            },
+            {
+                "id": "6203efabbcad4a003b9c2756",
+                "message": "Ut scelerisque eros nunc, lobortis interdum erat ullamcorper sit amet",
+                "sentBy": "VENDOR",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "createdAt": "2022-02-09T16:45:31.696Z",
+                "updatedAt": "2022-02-09T16:45:31.696Z"
+            },
+            {
+                "id": "6203eeb7bcad4a003b9c2755",
+                "userId": "60f98d48d89b14003b1a8dd0",
+                "userName": "Juan Pérez",
+                "productId": "60fae5efad170a003b7da428",
+                "message": "Curabitur feugiat",
+                "sentBy": "USER",
+                "createdAt": "2022-02-09T16:41:27.901Z",
+                "updatedAt": "2022-02-09T16:41:27.901Z"
+            }
+        ]
+    }
+}

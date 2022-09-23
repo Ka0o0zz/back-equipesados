@@ -1,0 +1,44 @@
+{
+  "response_code": 200,
+  "response_data": 
+    {
+      "_id": "1",
+      "productName": "Operador de maquinaria 2",
+      "images": [
+        "http://192.168.20.9:8000/img/francisco2.png",
+        "http://192.168.20.9:8000/img/francisco3.png",
+        "http://192.168.20.9:8000/img/francisco4.png"
+      ],
+      "capacity": 5.44,
+      "city": "Bogotá",
+      "services": ["Montacargas", "Gruas"],
+      "tabs": [
+        {
+          "title": "Descripción",
+          "features": [
+            {
+              "label": "Edad",
+              "value": "38"
+            },
+            {
+              "label": "Experiencia",
+              "value": "8 años"
+            },
+            {
+              "label": "Disponibilidad de viaje",
+              "value": "si"
+            }
+          ],
+          "machines": [
+            "Montacargas – Forklift",
+            "Grúas Móviles Telescópicas",
+            "Grúas Móviles Oruga Celosía",
+            "Grúa Pluma Articulada sobre Camión",
+            "Grúa Puente y Portico",
+            "Grúa Monoriel"
+          ]
+        }
+        
+      ]
+    }
+}

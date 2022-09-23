@@ -1,0 +1,96 @@
+{
+  "response_code": 200,
+  "response_data": 
+    {
+      "_id": "1",
+      "productName": "tk-456  excavator",
+      "images": [
+        "http://192.168.20.9:8000/img/prod1_1.jpg",
+        "http://192.168.20.9:8000/img/prod1_2.jpg",
+        "http://192.168.20.9:8000/img/prod1_3.jpg"
+      ],
+      "capacity": 5.44,
+      "city": "Bogotá",
+      "services": ["Alquiler", "Venta"],
+      "tabs": [
+        {
+          "title": "General",
+          "features": [
+            {
+              "label": "Marca",
+              "value": "Caterpillar 928 G"
+            },
+            {
+              "label": "Modelo",
+              "value": "2004"
+            },
+            {
+              "label": "Número de serie",
+              "value": "DJD01371"
+            },
+            {
+              "label": "Color",
+              "value": "Amarillo"
+            },
+            {
+              "label": "Tipo de Combustible",
+              "value": "Diesel 224,8 lts"
+            },
+            {
+              "label": "Tipo de Herramienta",
+              "value": "Brazo doble"
+            },
+            {
+              "label": "Tipo de rodaje",
+              "value": "Cambio de poder"
+            }
+          ]
+        },
+        {
+          "title": "Detalles",
+          "features": [
+            {
+              "label": "Cilindraje",
+              "value": "224,8 lts"
+            },
+            {
+              "label": "Horómetro",
+              "value": "26.509 Hrs"
+            },
+            {
+              "label": "Kilometraje",
+              "value": "37,6 km/h"
+            },
+            {
+              "label": "Placa",
+              "value": "UE000159"
+            },
+            {
+              "label": "Peso del Equipo (ton)",
+              "value": "12308 kg"
+            },
+            {
+              "label": "Capacidad del Equipo",
+              "value": "12492 kg"
+            },
+            {
+              "label": "Dimensión (Largo mt)",
+              "value": "7252 mm"
+            },
+            {
+              "label": "Dimensión (Ancho mt)",
+              "value": "2900 mm"
+            },
+            {
+              "label": "Dimensión (Alto mt)",
+              "value": "2760 mm"
+            }
+          ]
+        },
+        {
+          "title": "Usos",
+          "description": "Usos del Equipo:\nconstrucción, vías, manipulación de chatarra, levantamiento de cargas."
+        }
+      ]
+    }
+}

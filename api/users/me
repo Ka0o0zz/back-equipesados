@@ -1,0 +1,11 @@
+{
+    "response_code": 200,
+    "response_data": {
+        "id": "60f98d48d89b14003b1a8dd0",
+        "mobileNumber": "3000000000",
+        "countryCode": "+57",
+        "email": "jperez@mail.com",
+        "firstName": "Juan",
+        "lastName": "Perez"
+    }
+}

@@ -1,0 +1,46 @@
+{
+  "response_code": 200,
+  "response_data": {
+    "_id": "1",
+    "productName": "Trasportador",
+    "images": [
+      "http://192.168.20.9:8000/img/carlos2.png",
+      "http://192.168.20.9:8000/img/camion1.png",
+      "http://192.168.20.9:8000/img/camion2.png"
+    ],
+    "capacity": 5.44,
+    "city": "Bogotá",
+    "services": ["Camion"],
+    "tabs": [
+      {
+        "title": "Descripción",
+        "features": [
+          {
+            "label": "Edad",
+            "value": "51"
+          },
+          {
+            "label": "Experiencia",
+            "value": "12 años"
+          },
+          {
+            "label": "Placas del vehiculo",
+            "value": "DJD 371"
+          },
+          {
+            "label": "Tipo de vehiculo",
+            "value": "Camion"
+          },
+          {
+            "label": "Marca",
+            "value": "Chevrolet NQR"
+          },
+          {
+            "label": "Color",
+            "value": "Rojo"
+          }
+        ]
+      }
+    ]
+  }
+}

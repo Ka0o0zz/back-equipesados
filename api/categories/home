@@ -1,0 +1,27 @@
+{
+  "response_code": 200,
+  "response_data": {
+    "categories": [
+      {
+        "_id": "1",
+        "title": "Máquinas",
+        "icon": "lib/assets/images/cat-1.png"
+      },
+      {
+        "_id": "2",
+        "title": "Transporte",
+        "icon": "lib/assets/images/cat-2.png"
+      },
+      {
+        "_id": "3",
+        "title": "Repuestos",
+        "icon": "lib/assets/images/cat-3.png"
+      },
+      {
+        "_id": "4",
+        "title": "Operadores",
+        "icon": "lib/assets/images/cat-4.png"
+      }
+    ]
+  }
+}

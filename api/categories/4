@@ -1,0 +1,58 @@
+{
+  "response_code": 200,
+  "response_data": {
+    "banners": [
+      {
+        "image": "http://192.168.20.9:8000/img/image_banner1.png",
+        "status": true,
+        "_id": "612436bfdf3032003aa2d8e2",
+        "bannerType": "PRODUCT",
+        "franchiseId": "612435a4df3032003aa2d8cf",
+        "title": "Gran descuento",
+        "description": "-20% en la marca John Deere",
+        "productId": "1234",
+        "vendorId": "611edb67df3032003aa2d777",
+        "franchiseName": "Vendedor 123",
+        "createdAt": "2021-08-24T00:01:03.819Z",
+        "updatedAt": "2021-08-24T00:01:03.819Z",
+        "__v": 0
+      }, {
+        "image": "http://192.168.20.9:8000/img/image_banner2.jpg",
+        "status": true,
+        "_id": "612436bfdf3032003aa2d8e2",
+        "bannerType": "PRODUCT",
+        "franchiseId": "612435a4df3032003aa2d8cf",
+        "title": "Gran descuento",
+        "description": "-10% en la marca Caterpillar",
+        "productId": "1234",
+        "vendorId": "611edb67df3032003aa2d777",
+        "franchiseName": "Vendedor 123",
+        "createdAt": "2021-08-24T00:01:03.819Z",
+        "updatedAt": "2021-08-24T00:01:03.819Z",
+        "__v": 0
+      }
+    ],
+    "subcategories": [
+      {
+        "_id": "1",
+        "title": "Barredora bulldozer",
+        "icon": "http://192.168.20.9:8000/img/maquina-1.png"
+      },
+      {
+        "_id": "2",
+        "title": "Compactadores",
+        "icon": "http://192.168.20.9:8000/img/maquina-2.png"
+      },
+      {
+        "_id": "3",
+        "title": "Grúas montadas en camión con aguilón",
+        "icon": "http://192.168.20.9:8000/img/maquina-3.png"
+      },
+      {
+        "_id": "4",
+        "title": "Dumper o volqueta fuera de carretera",
+        "icon": "http://192.168.20.9:8000/img/maquina-4.png"
+      }
+    ]
+  }
+}
