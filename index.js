@@ -2,6 +2,7 @@ const express = require("express");
 //const home = require('./categories/home')
 const path = require("path");
 const fs = require("fs");
+const axios = require("axios");
 
 const app = express();
 app.use(express.static(__dirname + "/public"));
@@ -38,12 +39,6 @@ fs.readFile(__dirname + '/api/categories/home', 'utf8', function (err, data) {
 
 //     })
 // });
-
-app.get("/", function (req, res) {
-  res.json({
-    hola: "holaa",
-  });
-});
 
 app.get("/products/home_", function (req, res) {
   serveFile(res, "api/products/home_");
@@ -87,7 +82,24 @@ app.get("/categories/:id", function (req, res) {
 
 function serveFile(res, pathName, mime) {
   mime = mime || "application/json";
-  const file = path.join(process.cwd(), "", pathName);
+  const url = "https://rt4apps.com/consttruction/bk/" + pathName;
+
+  const getData = async (url) => {
+    try {
+      const response = await axios.get(url);
+      const data = response.data;
+      return data;
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  getData(url).then((data) => {
+    res.writeHead(200, { "Content-Type": mime });
+    res.end(JSON.stringify(data));
+  });
+
+  /*const file = path.join(process.cwd(), "", pathName);
 
   fs.readFile(file, function (err, data) {
     if (err) {
@@ -96,9 +108,8 @@ function serveFile(res, pathName, mime) {
     }
     res.writeHead(200, { "Content-Type": mime });
     res.end(data);
-  });
+  });*/
 }
-
 
 app.listen(8000, () => {
   console.log("el servidor se esta corriendo");
