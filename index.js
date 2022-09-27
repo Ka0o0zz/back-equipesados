@@ -55,7 +55,7 @@ app.get('/', function(req, res) {
 app.get('/products/home_', function(req, res) {
 
     
-    serveFile(res, './api/products/home_');
+    serveFile(res, 'api/products/home_');
 
 });
 
@@ -108,8 +108,9 @@ app.get('/categories/:id', function(req, res) {
 function serveFile(res, pathName, mime) {
     
     mime = mime || 'application/json';
+    const basepath = __dirname.replace('/./', '')
     
-    fs.readFile(__dirname + '/' + pathName, function (err, data) {
+    fs.readFile(basepath + '/' + pathName, function (err, data) {
         if (err) {
             res.writeHead(500, {"Content-Type": "text/plain"});
             return res.end('Error loading ' + pathName + " with Error: " + err);
